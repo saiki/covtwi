@@ -1,0 +1,35 @@
+body {
+	margin: 0;
+	width: 100%;
+}
+#tweet {
+	background-color: #333333;
+	position: absolute;
+	bottom: 0px;
+	width: 100%;
+	height: 250px;
+}
+#tweet .list a {
+	text-decoration: none;
+	color: black;
+}
+#tweet .on {
+	background-color: #FFFFFF;
+}
+#tweet .off {
+	background-color: #DDEEFF;
+}
+#tweet .header {
+	float: right;
+	font-weight: bold;
+}
+#tweet .header a {
+	text-decoration: none;
+	color: #FFFFFF;
+	height: 20px;
+}
+#tweet .list {
+	overflow-y: scroll;
+	overflow-x: visible;
+	height: 230px;
+}

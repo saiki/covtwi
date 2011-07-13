@@ -1,0 +1,31 @@
+<html>
+	<head>
+		<meta charset="utf-8" />
+		<title>covtwi</title>
+		<link rel="stylesheet" href="css/covtwi.css" type="text/css" charset="utf-8"/>
+		<script type="text/javascript" src="js/jquery-1.6.1.js"></script>
+		<script type="text/javascript" src="js/contentflow.js"></script>
+		<script type="text/javascript" src="js/covtwi.js"></script>
+		<script type="text/javascript" src="http://api.twitter.com/1/users/suggestions.json?lang=ja&callback=wraploadsuggestions"></script>
+	</head>
+	<body style="background-color: #000000">
+		<div id="contentFlow" class="ContentFlow">
+			<div class="loadIndecator"><div class="indicator"></div></div>
+			<div class="flow">
+			</div>
+			<div class="globalCaption"></div>
+			<div class="scrollbar">
+				<div class="slider"></div>
+			</div>
+		</div>
+		<div id="tweet">
+			<div class="header">
+				<span><a href="javascript:(function(){$('#tweet').hide();})();void(0);">Close</a></span>
+			</div>
+			<p style="clear: both;"></p>
+			<div class="list">
+			</div>
+		</div>
+	</body>
+</html>
+
